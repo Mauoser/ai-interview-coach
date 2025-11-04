@@ -9,7 +9,7 @@ export const LoaderPage = ({ className }: { className?: string }) => {
         className
       )}
     >
-      <Loader className="w-6 h-6 min-w-6 min-h-6 animate-spin"></Loader>
+      <Loader className="w-6 h-6 min-w-6 min-h-6 animate-spin" />
     </div>
   );
 };

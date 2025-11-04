@@ -74,9 +74,9 @@ const HomePage = () => {
           <MarqueImg img="/assets/img/logo/firebase.png" />
           <MarqueImg img="/assets/img/logo/meet.png" />
           <MarqueImg img="/assets/img/logo/zoom.png" />
-          <MarqueImg img="/assets/img/logo/firebase.png" />
-          <MarqueImg img="/assets/img/logo/microsoft.png" />
-          <MarqueImg img="/assets/img/logo/meet.png" />
+          <MarqueImg img="/assets/img/logo/tslogo.png" />
+          <MarqueImg img="/assets/img/logo/shadcnui.png" />
+          <MarqueImg img="/assets/img/logo/vite.png" />
           <MarqueImg img="/assets/img/logo/tailwindcss.png" />
           <MarqueImg img="/assets/img/logo/microsoft.png" />
         </Marquee>

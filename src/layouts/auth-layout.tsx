@@ -6,8 +6,9 @@ const AuthenticationLayout = () => {
       <img
         src="/assets/img/bg.png"
         className="absolute w-full h-full object-cover opacity-20"
-      ></img>
-      <Outlet></Outlet>
+        alt=""
+      />
+      <Outlet />
     </div>
   );
 };
