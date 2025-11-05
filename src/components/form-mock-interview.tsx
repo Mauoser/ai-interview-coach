@@ -1,5 +1,6 @@
-import { z } from "zod";
+import type { Resolver } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { z } from "zod";
 import { FormProvider, useForm } from "react-hook-form";
 
 import type { Interview } from "@/types";
@@ -52,7 +53,7 @@ type FormData = z.infer<typeof formSchema>;
 
 export const FormMockInterview = ({ initialData }: FormMockInterviewProps) => {
   const form = useForm<FormData>({
-    resolver: zodResolver(formSchema),
+    resolver: zodResolver(formSchema) as Resolver<FormData>,
     defaultValues: initialData || {},
   });
 
