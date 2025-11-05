@@ -12,7 +12,7 @@ const HomePage = () => {
         <div className="my-8">
           <h2 className="text-3xl text-center md:text-left md:text-6xl">
             <span className="text-outline font-extrabold md:text-8xl">
-              Intervy AI
+              Intervy
             </span>
             <span className="text-gray-500 font-extrabold">
               — A better way to
@@ -55,7 +55,7 @@ const HomePage = () => {
           </div>
 
           <div className="hidden md:block absolute w-80 bottom-4 right-4 px-4 py-2 rounded-md bg-white/60 backdrop-blur-md">
-            <h2 className="text-neutral-800 font-semibold">Try Intervy AI</h2>
+            <h2 className="text-neutral-800 font-semibold">Try Intervy</h2>
             <p className="text-sm text-neutral-500">
               Get started with your AI mock interview{" "}
             </p>
