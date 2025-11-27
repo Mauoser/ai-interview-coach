@@ -59,10 +59,11 @@ const HomePage = () => {
             <p className="text-sm text-neutral-500">
               Get started with your AI mock interview{" "}
             </p>
-
-            <Button className="mt-3">
-              Generate <Sparkles />
-            </Button>
+            <Link to={"/generate"} className="w-full">
+              <Button className="mt-3">
+                Generate <Sparkles />
+              </Button>
+            </Link>
           </div>
         </div>
       </Container>
